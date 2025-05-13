@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header
+      class="flex justify-between items-center px-20 w-full py-1 bg-white h-20 sticky top-0 z-20"
+    >
+      <div class="logoimg w-20">
+        <img
+          src="./images/tanishq-logo-removebg-preview.png"
+          alt=""
+          class="w-full"
+        />
+      </div>
+      <div
+        class="searchbar w-lg flex justify-center justify-items-center relative"
+      >
+        <i class="fa-solid fa-magnifying-glass absolute left-5 top-5"></i>
+        <input
+          type="text"
+          name=""
+          id=""
+          placeholder="Search for Gold Jewellery,Diamond Jewellery and more..."
+          class="w-lg border border-gray-300 rounded-full px-10 h-13 py-2"
+        />
+        <a href=""
+          ><i class="fa-brands fa-instagram absolute right-5 top-4"></i
+        ></a>
+        <a href=""
+          ><i class="fa-regular fa-microphone absolute right-10 top-4"></i
+        ></a>
+      </div>
+      <div class="icons flex gap-12 text-center">
+        <i class="fa-regular fa-gem text-xl"></i>
+        <i class="fa-regular fa-shop text-xl"></i>
+        <i class="fa-regular fa-heart text-xl"></i>
+        <i class="fa-regular fa-user text-xl"></i>
+        <i class="fa-regular fa-bag-shopping text-xl"></i>
+      </div>
+    </header>
+    <section>
+      <nav class="px-20 my-5">
+        <ul class="flex justify-between items-center capitalize">
+          <a href=""
+            ><li class="flex">
+              <img
+                src="images/all-jewellery-l1.svg"
+                alt=""
+                class="w-6 h-5 mr-2"
+              />All Jewellery
+            </li></a
+          >
+          <a href=""
+            ><li class="flex">
+              <img src="images/gold-l1.svg" alt="" class="w-5 h-5 mr-2" />Gold
+            </li></a
+          >
+          <a href=""
+            ><li class="flex">
+              <img
+                src="images/diamond-l1.svg"
+                alt=""
+                class="w-5 h-5 mr-2"
+              />diamond
+            </li></a
+          >
+          <a href=""
+            ><li class="flex">
+              <img
+                src="images/earrings-l1.svg"
+                alt=""
+                class="w-5 h-5 mr-2"
+              />earrings
+            </li></a
+          >
+          <a href=""
+            ><li class="flex">
+              <img src="images/rings-l1.svg" alt="" class="w-5 h-5 mr-2" />rings
+            </li></a
+          >
+          <a href=""
+            ><li class="flex">
+              <img
+                src="images/dailywear-l1.svg"
+                alt=""
+                class="w-5 h-5 mr-2"
+              />dailywear
+            </li></a
+          >
+          <a href=""
+            ><li class="flex">
+              <img
+                src="images/collection-l1.svg"
+                alt=""
+                class="w-5 h-5 mr-2"
+              />collection
+            </li></a
+          >
+          <a href=""
+            ><li class="flex">
+              <img
+                src="images/wedding-l1.svg"
+                alt=""
+                class="w-5 h-5 mr-2"
+              />wedding
+            </li></a
+          >
+          <a href=""
+            ><li class="flex">
+              <img src="images/more-l1.svg" alt="" class="w-5 h-5 mr-2" />more
+            </li></a
+          >
+        </ul>
+      </nav>
+
+      <div class="slider relative z-10 mb-40">
+        <div
+          id="default-carousel"
+          class="relative w-full h-[80vh]"
+          data-carousel="slide"
+        >
+          <!-- Carousel wrapper -->
+          <div class="relative h-full overflow-hidden rounded-lg">
+            <!-- Item 1 -->
+            <div class="duration-700 ease-in-out h-full" data-carousel-item>
+              <img
+                src="images/slide1.webp"
+                class="absolute block object-cover h-[80vh] w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                alt="..."
+              />
+            </div>
+            <!-- Item 2 -->
+            <div class="duration-700 ease-in-out h-full" data-carousel-item>
+              <img
+                src="images/slide2.webp"
+                class="absolute block object-cover w-full h-[80vh] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                alt="..."
+              />
+            </div>
+            <!-- Item 3 -->
+            <div class="duration-700 ease-in-out h-full" data-carousel-item>
+              <img
+                src="images/slide3.jpg"
+                class="absolute block w-full object-cover h-[80vh] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                alt="..."
+              />
+            </div>
+            <!-- Item 4 -->
+            <div class="duration-700 ease-in-out h-full" data-carousel-item>
+              <img
+                src="images/slide4.webp"
+                class="absolute block w-full object-cover h-[80vh] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                alt="..."
+              />
+            </div>
+            <!-- Item 5 -->
+            <div class="duration-700 ease-in-out h-full" data-carousel-item>
+              <img
+                src="images/slide5.webp"
+                class="absolute block w-full object-cover h-[80vh] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                alt="..."
+              />
+            </div>
+          </div>
+          <!-- Slider indicators -->
+          <div
+            class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse"
+          >
+            <button
+              type="button"
+              class="w-3 h-3 rounded-full"
+              aria-current="true"
+              aria-label="Slide 1"
+              data-carousel-slide-to="0"
+            ></button>
+            <button
+              type="button"
+              class="w-3 h-3 rounded-full"
+              aria-current="false"
+              aria-label="Slide 2"
+              data-carousel-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              class="w-3 h-3 rounded-full"
+              aria-current="false"
+              aria-label="Slide 3"
+              data-carousel-slide-to="2"
+            ></button>
+            <button
+              type="button"
+              class="w-3 h-3 rounded-full"
+              aria-current="false"
+              aria-label="Slide 4"
+              data-carousel-slide-to="3"
+            ></button>
+            <button
+              type="button"
+              class="w-3 h-3 rounded-full"
+              aria-current="false"
+              aria-label="Slide 5"
+              data-carousel-slide-to="4"
+            ></button>
+          </div>
+          <!-- Slider controls -->
+          <button
+            type="button"
+            class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            data-carousel-prev
+          >
+            <span
+              class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+            >
+              <svg
+                class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 6 10"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5 1 1 5l4 4"
+                />
+              </svg>
+              <span class="sr-only">Previous</span>
+            </span>
+          </button>
+          <button
+            type="button"
+            class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            data-carousel-next
+          >
+            <span
+              class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+            >
+              <svg
+                class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 6 10"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m1 9 4-4-4-4"
+                />
+              </svg>
+              <span class="sr-only">Next</span>
+            </span>
+          </button>
+        </div>
+      </div>
+
+      <div class="sectionpage2 mb-25">
+        <div class="headingpage text-center">
+          <h1 class="text-4xl font-bold">Tanishq Collections</h1>
+          <p class="text-2xl">Explore our newly launched collection</p>
+        </div>
+
+        <div class="grid grid-cols-2 gap-4 px-20 mt-10">
+          <div class="">
+            <a href=""
+              ><img
+                src="images/secImage1.webp"
+                alt=""
+                class="w-full h-full object-cover rounded-lg"
+            /></a>
+          </div>
+          <div class="grid grid-rows-2 gap-4">
+            <a href=""
+              ><img
+                src="images/secImage2.jpg"
+                alt=""
+                class="w-full h-full object-cover rounded-lg"
+            /></a>
+            <a href=""
+              ><img
+                src="images/secImage3.webp"
+                alt=""
+                class="w-full h-full object-cover rounded-lg"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div class="sectionpage2 capitalize mb-25">
+        <div class="headingpage2 text-center">
+          <h1 class="font-bold text-5xl">Find Your Perfect Match</h1>
+          <p class="text-2xl">Shop by Categories</p>
+        </div>
+        <div class="grid grid-rows-1 mt-10 px-20">
+          <div class="grid grid-cols-4 gap-4 rounded-all">
+            <a href="" class="text-center font-bold mb-10"
+              ><img
+                src="images/four1.webp"
+                alt=""
+                class="w-full h-full rounded-xl"
+              />earrings</a
+            >
+            <a href="" class="text-center font-bold mb-10"
+              ><img
+                src="images/four2.jpg"
+                alt=""
+                class="w-full h-full rounded-xl"
+              />finger rings</a
+            >
+            <a href="" class="text-center font-bold mb-10"
+              ><img
+                src="images/four3.webp"
+                alt=""
+                class="w-full h-full rounded-xl"
+              />pendants</a
+            >
+            <a href="" class="text-center font-bold mb-10"
+              ><img
+                src="images/four4.jpg"
+                alt=""
+                class="w-full h-full rounded-xl"
+              />mangalsutra</a
+            >
+
+            <a href="" class="text-center font-bold"
+              ><img
+                src="images/four-5.webp"
+                alt=""
+                class="w-full h-full rounded-xl"
+              />braceletes</a
+            >
+            <a href="" class="text-center font-bold"
+              ><img
+                src="images/four-6.jpg"
+                alt=""
+                class="w-full h-full rounded-xl"
+              />finger bangles</a
+            >
+            <a href="" class="text-center font-bold"
+              ><img
+                src="images/four-7.webp"
+                alt=""
+                class="w-full h-full rounded-xl"
+              />chains</a
+            >
+            <a href="" class="text-center font-bold"
+              ><img
+                src="images/four-8.webp"
+                alt=""
+                class="w-full h-full rounded-xl"
+              />view all</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="sectionpage3 capitalize">
+        <div class="headingpage3 text-center ">
+          <h1 class="text-5xl font-bold">Tanishq World</h1>
+          <p class="text-2xl">A companion for every occasion</p>  
+        </div>
+        <div class="grid grid-cols-2 m-20">
+          <div class="grid grid-rows-2    text-center ">
+            <div class="warapper1 relative ">
+              <img
+                src="images/tw-nt-wedding-desktop.webp" alt="" class="w-full rounded-xl mb-2  object-cover"/>
+
+              <div class="text-3xl font-bold absolute  top-0 inset-x-0 flex w-full  justify-center items-center  text-white">
+                <h1>Wedding</h1>
+              </div>
+            </div>
+
+            <div class="warapper1 ">
+              <img
+                src="images/tw-nt-gold-desktop.webp"
+                alt=""
+                class="w-full rounded-xl object-cover h-auto relative"
+              />
+
+              <div class="text-3xl font-bold absolute  top-0 inset-x-0 flex w-full  justify-center items-center  text-white">
+                <h1>gold</h1>
+              </div>
+            </div>
+          </div>
+
+           <div class="grid grid-rows-2  text-center">
+  <div class="warapper1 relative">
+              <img
+                src="images/tw-diamond-desktop.webp"
+                alt=""
+                class="w-full rounded-xl mb-2 object-cover h-auto"
+              />
+
+              <div class="text-3xl font-bold absolute  top-0 inset-x-0 flex w-full  justify-center items-center  text-white">
+                <h1>diamond</h1>
+              </div>
+            </div>
+
+
+          
+
+            <div class="warapper1 relative">
+              <img
+                src="images/tw-dailywear-desktop.webp"
+                alt=""
+                class="w-full rounded-xl object-cover h-auto"
+              />
+
+              <div class="text-3xl font-bold absolute  top-0 inset-x-0 flex w-full  justify-center items-center  text-white">
+                <h1>daily wear</h1>
+              </div>
+            </div>
+      </div>  
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+  </body>
+</html>
