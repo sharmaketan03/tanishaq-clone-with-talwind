@@ -17,7 +17,7 @@
     />
     <title>Document</title>
   </head>
-  <body>
+  <body class="overflow-x-hidden">
     <header
       class="flex justify-between items-center px-20 w-full py-1 bg-white h-20 sticky top-0 z-20"
     >
@@ -28,23 +28,11 @@
           class="w-full"
         />
       </div>
-      <div
-        class="searchbar w-lg flex justify-center justify-items-center relative"
-      >
-        <i class="fa-solid fa-magnifying-glass absolute left-5 top-5"></i>
-        <input
-          type="text"
-          name=""
-          id=""
-          placeholder="Search for Gold Jewellery,Diamond Jewellery and more..."
-          class="w-lg border border-gray-300 rounded-full px-10 h-13 py-2"
-        />
-        <a href=""
-          ><i class="fa-brands fa-instagram absolute right-5 top-4"></i
-        ></a>
-        <a href=""
-          ><i class="fa-regular fa-microphone absolute right-10 top-4"></i
-        ></a>
+      <div class="searchbar w-lg flex justify-center justify-items-center relative">
+        <i class="fa-solid fa-magnifying-glass absolute left-5 top-4"></i>
+        <input type="text" name="" id="" placeholder="Search for Gold Jewellery,Diamond Jewellery and more..." class="w-lg border border-gray-300 rounded-full px-10 h-10 py-2"/>
+        <a href=""><i class="fa-brands fa-instagram absolute  right-10 top-4"></i></a>
+        <a href=""><i class="fa-regular fa-microphone absolute right-5 top-4"></i></a>
       </div>
       <div class="icons flex gap-12 text-center">
         <i class="fa-regular fa-gem text-xl"></i>
@@ -68,7 +56,11 @@
           >
           <a href=""
             ><li class="flex">
-              <img src="images/gold-l1.svg" alt="" class="w-5 h-5 mr-2" />Gold
+              <img
+                src="images/gold-l1.svg"
+                alt=""
+                class="w-5 h-full mr-2"
+              />Gold
             </li></a
           >
           <a href=""
@@ -374,49 +366,55 @@
       </div>
 
       <div class="sectionpage3 capitalize">
-        <div class="headingpage3 text-center ">
+        <div class="headingpage3 text-center">
           <h1 class="text-5xl font-bold">Tanishq World</h1>
-          <p class="text-2xl">A companion for every occasion</p>  
+          <p class="text-2xl">A companion for every occasion</p>
         </div>
-        <div class="grid grid-cols-2 m-20">
-          <div class="grid grid-rows-2    text-center ">
-            <div class="warapper1 relative ">
+        <div class="grid grid-cols-2 m-20 gap-2">
+          <div class="grid grid-rows-2 text-center gap-2">
+            <div class="warapper1 relative">
               <img
-                src="images/tw-nt-wedding-desktop.webp" alt="" class="w-full rounded-xl mb-2  object-cover"/>
+                src="images/tw-nt-wedding-desktop.webp"
+                alt=""
+                class="w-full rounded-xl mb-2 h-full object-cover"
+              />
 
-              <div class="text-3xl font-bold absolute  top-0 inset-x-0 flex w-full  justify-center items-center  text-white">
+              <div
+                class="text-3xl font-bold absolute top-0 inset-x-0 flex w-full justify-center items-center text-white"
+              >
                 <h1>Wedding</h1>
               </div>
             </div>
 
-            <div class="warapper1 ">
+            <div class="warapper1">
               <img
                 src="images/tw-nt-gold-desktop.webp"
                 alt=""
-                class="w-full rounded-xl object-cover h-auto relative"
+                class="w-full rounded-xl object-cover h-full relative"
               />
 
-              <div class="text-3xl font-bold absolute  top-0 inset-x-0 flex w-full  justify-center items-center  text-white">
+              <div
+                class="text-3xl font-bold absolute top-0 inset-x-0 flex w-full justify-center items-center text-white"
+              >
                 <h1>gold</h1>
               </div>
             </div>
           </div>
 
-           <div class="grid grid-rows-2  text-center">
-  <div class="warapper1 relative">
+          <div class="grid grid-rows-1 text-center gap-2">
+            <div class="warapper1 relative">
               <img
                 src="images/tw-diamond-desktop.webp"
                 alt=""
-                class="w-full rounded-xl mb-2 object-cover h-auto"
+                class="w-full rounded-xl mb-2 object-cover h-full"
               />
 
-              <div class="text-3xl font-bold absolute  top-0 inset-x-0 flex w-full  justify-center items-center  text-white">
+              <div
+                class="text-3xl font-bold absolute top-0 inset-x-0 flex w-full justify-center items-center text-white"
+              >
                 <h1>diamond</h1>
               </div>
             </div>
-
-
-          
 
             <div class="warapper1 relative">
               <img
@@ -425,13 +423,116 @@
                 class="w-full rounded-xl object-cover h-auto"
               />
 
-              <div class="text-3xl font-bold absolute  top-0 inset-x-0 flex w-full  justify-center items-center  text-white">
+              <div
+                class="text-3xl font-bold absolute top-0 inset-x-0 flex w-full justify-center items-center text-white"
+              >
                 <h1>daily wear</h1>
               </div>
             </div>
-      </div>  
+          </div>
         </div>
       </div>
+
+      <div class="sectionpage4 mt-4 h-[90vh] mb-5">
+        <div class="relative">
+          <div class=" ">
+            <img
+              src="images/new-arrivals-background.webp"
+              alt=""
+              class="w-full h-[500px] object-cover"
+            />
+            <div class="absolute z-30 top-0 px-20 pt-10">
+              <div class="flex items-center">
+                <h1 class="text-5xl mr-4 text-white">New Arrivals</h1>
+                <h4 class="flex bg-white p-3 rounded-4xl">
+                  <span
+                    ><img
+                      src="images/diamond-l1.svg"
+                      alt=""
+                      class="w-5 h-5 mr-2" /></span
+                  >500+ New Items
+                </h4>
+              </div>
+              <h2 class="text-white text-2xl mt-4 flex flex-wrap w-4/6">
+                New Arrivals Dropping Daily, Monday through Friday. Explore the
+                Latest Launches Now!
+              </h2>
+            </div>
+          </div>
+
+          <div class="twopositionimg">
+            <div
+              class="absolute left-[5%] top-[60%] w-[40%] p-4 bg-white rounded-lg"
+            >
+              <a href="" ><img src="images/mangalsutra.webp" alt="" class="w-full h-96" /></a>
+              <p class="absolute left-10 bottom-10 text-3xl text-white capitalize">mangalsutra</p>
+            </div>
+            <div
+              class="absolute right-[5%] top-[60%] w-[40%] p-4 bg-white rounded-lg"
+            >
+              <a href="" ><img src="images/pendants.webp" alt="" class="w-full h-96  relative" /></a>
+              <p  class="absolute left-10 bottom-10 text-3xl  text-white capitalize">pendants</p>
+         
+            </div>
+          </div>
+        </div>
+
+        <div></div>
+      </div>
+
+      <div class="sectionpage5 my-5 w-full flex items-center justify-center gap-10  border-t-1 h-[600px] border-gray-300">
+                   <div class=" w-[45%] border-r-1 flex items-center h-full border-gray-300">
+                      <div>
+                       <h1 class="text-8xl"> Tanishq <span class="text-red-800">Assurance</span> </h1>
+                         <h2 class="text-3xl text-center mt-3">Crafted by experts, cherished by you</h2>
+                      </div>
+                         
+                   </div>
+                   <div class="threeimg w-[45%] flex items-center text-center items-center">
+
+                    <div class="flex justify-between w-full items-center  ">
+                      <div class="oneimg   text-center w-[14%] text-center">
+                                    <img src="images/tanishq-quality-crafting.svg" alt="" class="w-[90%]">
+                                    <h1 class="text-2xl capitalize ">quality crafting</h1>
+                       </div>
+                        <div class="twoimg  text-center w-[15%]">
+                                    <img src="images/tanishq-ethically-sourced.svg" alt="" class="w-[90%]">
+                                    <h1 class="text-2xl capitalize ">ethically sourced</h1>
+                       </div>
+                        <div class="threeimg  text-center w-[15%]">
+                                    <img src="images/tanishq-transparency.svg" alt="" class="w-[90%]">
+                                    <h1 class="text-2xl capitalize ">tanishq transparency</h1>
+                       </div>
+                    </div>
+                       
+                   </div>
+      </div>
+
+
+
+      <div class="sectionpage6 mt-20">
+                <div class="text-center">
+                  <h1 class="text-5xl font-bold">Exchange Program</h1>
+                  <h3 class="text-3xl mt-3">Trusted by 2.8M+ families</h3>
+                </div>
+
+                <div class="video w-full mt-20  relative">
+                   <video src="images/ge-dt.mp4" class="w-full" autoplay paused loop controls></video>
+                   <a href="" class="text-2xl bg-white absolute  bottom-30 left-[45%]  px-8 py-4 rounded-4xl font-bold">Explore Now <span class="ml-3"><i class="fa-solid fa-chevron-right"></i></span></a>
+                </div>
+                <div class="intwo w-full mt-5">
+                  <div class="flex justify-center text-center">
+                   <img src="images/borderline.svg" alt="">
+                     <img src="images/borderflowericon.svg" alt="">
+                        <h1 class="text-2xl w-[40%]">Trust us to be part of your precious moments and to deliver jewellery that you'll cherish forever.</h1>
+                      <img src="images/borderflowericon.svg" alt="">
+                      <img src="images/borderline 2.svg" alt="">
+                  </div>
+                     
+                </div>
+            
+      </div>
+
     </section>
     <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
   </body>
